@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <link href=' http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+	<meta charset="utf-8">
+	<title>My Resume</title>
+	<style type="text/css">
+		body{
+
+			font-family:  'Droid Sans', arial, serif; 
+		}
+		#navBar{
+
+			background-color: #353131;
+			overflow: hidden;
+		}
+		#navBar a{
+			 float: left;
+  			 display: block;
+   			 color: white;
+   			 text-align: center;
+    		 padding: 16px 17px;
+    		 text-decoration: none;
+   			 font-size: 18px;
+
+		}
+
+		#navBar a:hover{
+
+			background-color: #61757F;
+			cursor: pointer;
+
+		}
+
+		#navBar a:active{
+
+			background-color: green;
+			
+
+		}
+		#current{
+
+			background-color: #53B0DD;
+			
+
+		}
+
+		footer div{
+			width: 20%;
+			margin: auto;
+
+		}
+		footer	div a{
+			 display: inline;
+			 margin: 2px;
+
+
+
+		}
+
+		header{
+			font-family: 'Righteous', cursive;
+
+
+
+		}
+		footer h3{
+			font-family: 'Vibur', cursive;
+		}
+	</style>
+
+</head>
+
+
+<body style="background-image: url(./background/Background.jpg)">
+<!--Creating a Navigation bar-->
+<header id="navBar">
+<div>
+  <a onclick="education()" id="current">Education</a>
+  <a onclick="training()">Training&Internships</a>
+  <a onclick="projects()">Projects</a>
+  <a onclick="skills()">Skills</a>
+  <a onclick="honors()">Honors&Certifications</a>
+   <a onclick="extra()">Extra-Curricular</a>
+</div>
+
+</header>
+
+<section class="animated fadeInRightBig">
+<!--This information will remain same in all tabs-->
+<img src="./ProfilePic/Ryuzaki.jpg" height="10%" width="13%" style="float:right;border-style: solid;border-color: green">
+<h1>Ankit Sharma</h1>
+<p><b>Address:</b> *Not available publicly.*</p>
+<p><b>Ph.</b>*Not available publicly.*</p>
+<p><b>Email:</b> ankitsharmacs007[at]gmail[dot]com</p>
+</section>
+
+<hr>
+
+<article>
+	
+<div id="EducationContent" class="animated jello">
+	<h2><u>EDUCATION</u></h2>
+
+<ul>
+<li>Jagran Lakecity University, Bhopal, India <b>(CGPA: 9.79)</b>, B.Tech, Computer Science Engineering, 2014 - 2018 <b>(University Topper)</b></li>
+
+ <li>Received Marker cups and academic Excellence awards in 2nd and 3rd years.</li>
+ <li>Recipient of 100% chancellor-scholarship for outstanding academic performance in 2nd and 3rd years.</li>
+ <li>Got selected and worked as campus ambassador of my University for IIT-Bombay’s Techfest 2016.</li>
+ <li>HackerRank Campus Ambassador.
+</ul>
+
+
+</div>
+
+<div id="TrainingContent" style="display: none" class="animated zoomIn" >
+	
+<h2><u>TRAININGS AND INTERNSHIPS</u></h2>
+
+<h4>ANALYTIXLABS, GURUGRAM, INDIA</h4>
+<b>Big Data Analyst (Hadoop) Nov 2016 – Apr 2017</b>
+<ul>
+<li> Worked on various Data Science projects like sentimental analysis, retail analytics, sensor data analysis, Traffic data analysis, and loan data analysis.</li>
+<li>Successfully completed all the projects way before the deadlines to successfully earn the Big Data Analyst certificate.</li>
+</ul>
+
+<h4>MICROSOFT VIRTUAL ACADEMY, ONLINE</h4>
+<b>Programming In C# Jump Start Mar 2017 - Mar 2017</b>
+<ul>
+<li> Worked with several advanced topics in C# like reflection, threading, encryption, object serialization, assemblies, events, garbage collection, LINQ, and data contracts.</li>
+ <li>Used the acquired knowledge to create the projects Image to ASCII converter, and 9Gag Scraper.</li>
+
+</ul>
+
+<h4>UDEMY, ONLINE</h4>
+<b>Automate The Boring Stuff With Python Jan 2017 – Feb 2017</b>
+<ul>
+ <li>A python training course that gave me insight on creating web scrapers and spiders, job automation, python bot building, pdf manipulation, and controlling web downloads with python.</li>
+<li>Used the skills to scrape a novel off the web and convert it to pdf for easy offline reading. Also created Wikipedia scraper bot.</li>
+</ul>
+
+<h4>ICARNEGIE GLOBAL LEARNING, ONLINE</h4>
+<b>iCarnegie Software Development Course SDP01 Jan 2015 – Sep 2015</b>
+<ul>
+ <li>While working with iCarnegie, I worked on various web development projects for Parallax Global Consulting LLC.</li>
+ <li>Created the current website for Parallax Global Consulting LLC as my final project. Used HTML, CSS, JQuery, and Google Map API in the development process.</li>
+ </ul>
+
+</div>
+
+<div id="ProjectsContent" style="display: none" class="animated zoomIn" >
+<h2><u>ACADEMIC PROJECTS</u></h2>
+
+
+<b>Twitter Data Sentimental Analysis, Data Science (Feb 2017 – March 2017)</b>
+<ul>
+ <li>Used Flume, Hive, and Tableau to perform sentimental analysis of the movie Ironman 3.
+ Streamed the tweets using Flume, loaded the tweets into the Hive, and then used Tableau to perform visual analysis about the movie’s performance in different areas of the world.</li>
+ <li>Demonstrated the understanding of Hadoop ecosystem tools.</li>
+</ul>
+
+<b>Wikipedia Scraper Bot, Python Web Scraping (Apr 2017- Apr 2017)</b>
+<ul>
+<li> Designed a python bot that can fetch first summary paragraph from any Wikipedia URL and output it in a file with filename same as article’s title.</li>
+<li> Implemented Wikimedia markup cleaner using Regex.</li>
+<li> Followed OOP to learn the modularization of the project.</li>
+</ul>
+
+<b>Image To ASCII Converter, C# Image Processing (Apr 2017 – Apr 2017)</b>
+<ul>
+<li> Successfully created a GUI application in C# that converts image to an ASCII text.</li>
+<li> Implemented features like Drag&Drop, Recent files, Error logs.</li>
+<li> Learned to handle exceptions on the way.</li>
+
+</ul>
+
+<b>University App Admin Panel, Web Development (Jul 2016 – Nov 2016)</b>
+<ul>
+<li> Created an admin panel for the University App while working on a group project.</li>
+<li> Worked with both front-end and back-end using HTML, CSS, JS, Bootstrap, PHP, MySQL, and XAMPP.</li>
+<li> Understood the how user login and registration works; how file uploads, update, and downloads work; and how to dynamically generate the tables using the data in database.</li>
+</ul>
+
+<b>Flappy Bat, Unity3D Game (Dec 2015 – Jan 2016)</b>
+<ul>
+<li> Developed a Flappy-bird clone, Flappy-Bat, using the Unity3D Engine.</li>
+<li> Ported it to android, windows, and web.</li>
+<li> Learned and understood the workflow, scripting, assets management, sprite animation in Unity3D.</li>
+</ul>
+
+<b>CryptChat, C# LAN Secure Chat Application (Jul 2015 – Nov 2015)</b>
+<ul>
+<li> Worked towards creating a GUI LAN chat application that encrypted the messages.</li>
+<li> Took advantage of the simple XOR encryption technique to encrypt and decrypt the messages.</li>
+<li> Understood the concept of sockets, client and server, and WinForms in C#.</li>
+</ul>
+
+<b>ANIMUS, C# Voice Assistant Program (Jan 2015 – Apr 2015)</b>
+<ul>
+<li> Created a voice assistant in C# that took voice and text as input and performed the required task.</li>
+<li> Implemented text to speech, voice recognition, and OS interaction.</li>
+<li> In addition to the mentioned features, the ANIMUS also has the ability to control PowerPoint slides.</li>
+<li> Learned to launch processes through C#, usage of Microsoft Speech Engine, and launching google queries through the application.</li>
+</ul>
+
+
+<b>9Gag Scraper Spider, C# Web Scraping (Apr 2017 – Apr 2017)</b>
+<ul>
+<li> Developed a GUI Web Scraping Spider using C# that allows bulk downloading of 9Gag images.</li>
+<li> Applied various GUI elements to use like Folder browser and Progress bar.</li>
+<li> Only the first image URL is required; rest are downloaded automatically by the spider as it crawls from one image to other.</li>
+<li> Understood the implementation of spiders in C#. Also learned to use various GUI elements in C#.</li>
+</ul>
+
+
+<b>Parallax World Website, Web Development (Jan 2015 – Sep 2015)</b>
+<ul>
+<li> Did website development for parallax world while working as iCarnegie intern.</li>
+<li> Used HTML, CSS, and JQuery.</li>
+<li> The website was built in multiple stages, with final stage using JQuery for Navigation bar and Google Map API.</li>
+<li> Helped to understand the web development process under deadlines.</li>
+</ul>
+
+<b>Pandas Data Analysis, Python Data Science (Apr 2017 – Apr 2017)</b>
+<ul>
+<li> Used Python Data Analysis Library, Pandas, to analyze csv files containing Hubble data and wage rates.</li>
+<li> Plotted graph using the Matplotlib library in the Jupyter Notebook.</li>
+</ul>
+
+<b>Chicago Traffic Data Analysis, Data Science (Feb 2017 – March 2017)</b>
+<ul>
+<li> Analyzed the voluminous Chicago traffic data csv file using NoSQL HBase Database, PIG, and Tableau.</li>
+<li> Obtained average bus speed and total frequencies of buses for each region every day.</li>
+</ul>
+
+<b>Titanic Data Analysis, Data Science (Dec 2016 – Jan 2017)</b>
+<ul>
+<li> Analyzed the Titanic data file to find the number of male and female survivors; average fare of each cabin; and people who died or survived in each cabin, along with their gender and ages.</li>
+<li> Wrote a mapReduce programs to perform the analysis.</li>
+</ul>
+
+<b>Big Data Analytics Using Clickstream Data, Data Science (Feb 2017 – Mar 2017)</b>
+<ul>
+<li> Used SQL, SQOOP, Hive, and Tableau to operate on the data obtained by processing the weblog files.</li>
+<li> Identified the pages with most bounce rates.</li>
+<li> Identified the users, their genders, countries, states, and the product categories visited by them.</li>
+<li> Did visual analysis with Tableau about the top visitors, pages with most bounce rates, and which products are popular among what age groups.</li>
+<li> Understood how to integrate all the Hadoop tools to perform analysis on real world data.</li>
+</ul>
+
+<b>Retail Sales Analytics, Data Science (Feb 2017 – Mar 2017)</b>
+<ul>
+<li> Used SQL, SQOOP, Hive, and Tableau to operate on the data obtained by processing the csv files.</li>
+<li> Gathered the revenue by country, top 20 items sold, daily sales activity; and visualized the results using Tableau.</li>
+</ul>
+
+<b>Machine And Sensor Data Analysis, Data Science (Feb 2017 – Mar 2017)</b>
+<ul>
+<li> Analyzed the Heating, Ventilation, Air Conditioning (HVAC) systems in 20 large buildings around the world.</li>
+<li> The input data was obtained in csv format.</li>
+<li> As an output, we got the buildings that were frequently outside optimal temperature range, the countries where offices where too hot or too cold, and the performance of different brands of HVAC equipment.</li>
+</ul>
+
+	
+</div>
+
+<div id="SkillsContent" style="display: none" class="animated zoomIn" >
+
+<h2><u>TECHNICAL SKILLS</u></h2>
+<ul>
+	
+<li><b>Operating Systems:</b> Windows, CentOS, Ubuntu.</li>
+<li><b>Programming Languages:</b> C#, Python, C/C++, Java, PHP, JS, JQuery, HTML, CSS, SQL, HQL, NoSQL, Ruby.</li>
+<li><b>Software:</b> Hadoop Framework, Spyder, Tableau, GitHub, Firebug, GreaseMonkey Scripting, VMWare Workstation Pro, MS Visual Studio 2012, Unity3D, Jupyter, Aptana Studio 3, Eclipse, Netbeans, Hue, XAMPP.</li>
+<li><b>Other:</b> Algorithms, Data Structures, OS Scheduling algorithms, Automata, OOP, Compiler Design, Regex.
+HONORS AND</li>
+
+</ul>
+	
+</div>
+
+<div id="HonorsContent" style="display: none" class="animated zoomIn" >
+<h2><u>HONORS AND CERTIFICATIONS</u></h2>
+
+<ul>
+<li>Won 2 silver and 1 bronze medals in HackerRank contests. Also have the archive score over 2000; 87 percentile Algorithm badge. Got 223/3219 rank in the first Rookie Rank contest.</li>
+<li>Participated in IIT-B Quantum code and performed very well.</li>
+<li>Got 1st position out of 52 people in an inter-University Mock-Placement Test.</li>
+<li>Received marker cups, excellence awards, and full scholarships for continuously topping the University.</li>
+<li><b>Certificates:</b> Analytixlabs-Big Data Analyst Hadoop Certification, iCarnegie Global Learning- Web Development Program Certification, IIT B TechFest 2016-Campus Ambassador Certification, Quantum Code-Participation Certificate, EDI- Entrepreneurship Awareness Certificate, Automate the boring stuff with python Certification.</li>
+</ul>
+
+	
+</div>
+
+<div id="ExtraContent" style="display: none" class="animated zoomIn" >
+	<h2><u>EXTRA-CURRICULAR</u></h2>
+
+	<ul>
+<li> Intermediate proficiency in Japanese Language.</li>
+<li> Worked as IIT-B Techfest 2016 campus ambassador of my University.</li>
+<li> Secured a rank of ~ 38,000 out of 1.13 Million students in AIEEE 2012.</li>
+<li> Organized a coding competition, CodeForce, at my University.</li>
+<li> Organized and managed multiple LAN gaming tournaments at my University.</li>
+	</ul>
+
+</div>
+
+</article>
+
+
+<hr>
+<footer>
+<div>
+<!--This is the footer content-->
+<h3 style="padding-left:5%"><u>MY DIGITAL FOOTPRINTS</u></h3><br><br>
+<a href="http://soulxhacker.github.io"><img src="./icons/GitHubPorflio-icon.png" height="20%" width="20%" title="GitHub Portfolio"></a>
+<a href="https://linkedin.com/in/ankit-sharma-72413797/"> <img src="./icons/Linkedin-icon.svg" width="20%" height="20%" title="LinkedIn"></a>
+
+<a href="https://hackerrank.com/Soul_XHacker">  <img src="./icons/HackerRank-icon.png" width="20%" height="20%" title="HackerRank"> </a>
+
+<a href="https://github.com/soulxhacker"><img src="./icons/github-icon.svg" height="20%" width="20%" title="GitHub"></a>
+</div>
+</footer>
+
+<script type="text/javascript" src="./myfile.js"></script>
+</body>
+</html>
