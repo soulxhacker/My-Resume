@@ -1,5 +1,5 @@
 # My-Resume
-My Resume, made with JavaScript
+My Resume, made with JavaScript **(Not Updated)**
 
 Hi guys, this is my single Resume I made with HTML, CSS, JavaScript and few other tools. You are free too use this as a template for creating your resume.
 The resume can be navigated with navbar.
